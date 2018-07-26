@@ -2,3 +2,122 @@
 box-sizing: border-box;
 }
 
+body{
+height:100%;
+background:linear-gradient(45deg, #5664b9,#2c8fa3);
+background-repeat:no-repeat;
+background-attachment: fixed;
+font-family:'Tienne', serif;
+font-size:12px;
+}
+
+#container{
+width:90%;
+margin: 0 auto;
+padding: 5px 5px 5px;
+background: #fff;
+border-bottom: 2px solid #ccc;
+border-radius: 10px;
+}
+
+label, p, select{
+ color: #8d8c8c;
+}
+
+
+::placeholder, option{
+opacity:0.5;
+}
+
+hr.style1{
+border:1.5px solid;
+margin:0;
+}
+hr.style2{
+border:0.6px solid;
+margin-top:2px;
+}
+
+.box{
+font-size: 1em;
+font-weight: 300; 
+width: 100%;
+border: none;
+height: auto;
+padding: 15px;
+margin-bottom: 1.2em;
+margin-top:0.8em;
+border-radius: .3em;
+border-bottom: 3px solid rgba(0,0,0, 0.05);
+background-color: #e8eeef;
+}
+
+input[type="postal-code"]{
+font-size: 1em;
+font-weight: 300; 
+width: 50%;
+border: none;
+height: auto;
+padding: 15px;
+margin-bottom: 1.2em;
+margin-top:0.8em;
+border-radius: .3em;
+border-bottom: 3px solid rgba(0,0,0, 0.05);
+background-color: #e8eeef;
+}
+
+h1{
+background-color:#313a73;
+margin-top:0;
+color: aliceblue;
+font-size:20px;
+padding: 20px 30px;
+font-family: 'Monoton', cursive;
+}
+h2{
+font-size:17px;
+}
+
+fieldset[id="contact"]{
+display:flex;
+flex-direction: column;
+}
+
+label[class="newsletter-text"]{
+display:flex;
+flex-direction: column;
+}
+
+fieldset{
+border: none;
+}
+
+button{
+cursor:pointer;
+}
+
+div .center-align{
+align-content:center;
+}
+
+.newsletter-items{
+margin:7px;
+}
+
+label[class="newsletter-text"]{
+margin: 12px 0 12px 0;
+}
+
+button{
+padding:10px 30px;
+border-radius:1em;
+background:linear-gradient(45deg, #5664b9,#2c8fa3);
+color:white;
+width:100%;
+border:none;
+margin-bottom:10px;
+}
+
+.copyright{
+font-size:10px;
+}
