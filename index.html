@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<header>
-    <h1 class="center-align">THE CODE REVIEW</h1>
-</header>
 
 <body>
+    <header>
+        <h1 class="cntr">THE&ensp;CODE&ensp;REVIEW</h1>
+    </header>
     <div id="container">
         <form action="index.html" method="POST">
-            <h2 class="center-align">Sign up for our newsletter</h2>
-            <p class="center-align">Get the latest news on how your code is doing right in your inbox</p>
+            <h2 class="cntr">Sign up for our newsletter</h2>
+            <p class="cntr">Get the latest news on how your code is doing right in your inbox</p>
             <hr class="style1">
             <hr class="style2">
             <div class="contact">
@@ -27,22 +27,22 @@
                     </legend>
 
                     <label for="name">Full Name</label>
-                    <input class="box" required type="text" id="name" name="full-name" placeholder="Required">
+                    <input required type="text" id="name" name="full-name" placeholder="Required" class="box">
 
                     <label for="email">Email Address</label>
-                    <input class="box" required type="email" id="email" name="email-address" placeholder="Required">
+                    <input required type="email" id="email" name="email-address" placeholder="Required" class="box">
 
                     <label for="number">Phone Number</label>
-                    <input class="box" type="tel" id="number" name="phone-number">
+                    <input type="tel" id="number" name="phone-number" class="box">
 
                     <label for="address">Street Address</label>
-                    <input class="box" type="street-address" id="address" name="street-address">
+                    <input type="street-address" id="address" name="street-address" class="box">
 
                     <label for="city">City</label>
-                    <input class="box" type="text" id="city" name="city">
+                    <input type="text" id="city" name="city" class="box">
 
                     <label for="state">State</label>
-                    <select class="box" id="state" name="state">
+                    <select id="state" name="state" class="box">
                         <option value="" disabled selected>Choose State</option>
                         <option value="AL">Alabama</option>
                         <option value="AK">Alaska</option>
@@ -98,7 +98,7 @@
                     </select>
 
                     <label for="zip-code">Zip Code</label>
-                    <input type="postal-code" id="zip-code" name="zip-code">
+                    <input type="postal-code" id="zip-code" name="zip-code" class="box">
                 </fieldset>
             </div>
             <hr class="style2">
@@ -128,9 +128,12 @@
                     <textarea class="box" id="feedback" name="user-feedback"></textarea>
                 </fieldset>
             </div>
-            <button type="submit" name="signup-button" class="center-align">Sign Up</button>
-            <p class="center-align copyright">Copyright The Code Review</p>
+            <div class="cntr">
+                <button type="submit" name="signup-button">Sign Up</button>
+                <p class="copyright">Copyright &copy; Triantafyllos Famprikatzis</p>
+            </div>
         </form>
     </div>
 </body>
+
 </html>
