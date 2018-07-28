@@ -7,25 +7,29 @@ height:100%;
 background:linear-gradient(45deg, #5664b9,#2c8fa3);
 background-repeat:no-repeat;
 background-attachment: fixed;
-font-family:'Tienne', serif;
 font-size:12px;
 }
 
-fieldset[id="contact"]{
-display:flex;
-flex-direction: column;
-}
-    
-label[class="newsletter-text"]{
-display:flex;
-flex-direction: column;
-}
-    
 fieldset{
 border: none;
 }
 
+h1{
+background-color:#313a73;
+margin-top:0;
+color: aliceblue;
+font-size:25px;
+padding: 18px 30px;
+font-family:'Changa', sans-serif;
+}
+h2{
+font-size:17px;
+color:#21274c;
+}
+    
 #container{/*Style the main white border*/
+font-family: 'Roboto', sans-serif;
+max-width:360px;
 width:85%;
 margin: 0 auto;
 padding: 5px 5px 5px;
@@ -51,10 +55,15 @@ background-color: #e8eeef;
 }
     
 label, p, select{
- color: #8d8c8c;
+color: #8d8c8c;
 }
 
-::placeholder, option{
+option{
+opacity:0.5;
+}
+
+::placeholder{
+text-align: right;
 opacity:0.5;
 }
 
@@ -73,38 +82,27 @@ input[type="postal-code"]{
 width: 50%;
 }
 
-h1{
-background-color:#313a73;
-margin-top:0;
-color: aliceblue;
-font-size:20px;
-padding: 20px 30px;
-font-family: 'Monoton', cursive;
+input[type="checkbox"],
+input[type="radio"]{
+margin: 10px 4px 8px 0;
 }
-h2{
-font-size:17px;
-color:#21274c;
+
+input[value="javascript-news"],
+input[value="plain-text"]{
+margin-bottom:30px;
 }
 
 .cntr{ /*Align top and bottom elemements in the form*/
 text-align: center;
 }
 
-.ne {
-margin:7px;
-}
-
-label[class="newsletter-text"]{
-margin: 12px 0 12px 0;
-}
-
 button{
 cursor:pointer;
 padding:15px 30px;
 border-radius:1.5em;
-background:linear-gradient(45deg, #5664b9,#2c8fa3);
+background:linear-gradient(45deg,#2c8fa3, #5664b9);
 color:white;
-width:85%;
+width:80%;
 border:none;
 margin-bottom:10px;
 font-size:15px
@@ -114,53 +112,49 @@ font-size:15px
 font-size:9.5px;
 }
 
-
-
-
-
-
-
-
-/*
-input[type="text"]:valid{
-color:green;
+.header2{
+margin: 25px 0 25px 0;
 }
-*/
-
-/*
-input[type="text"]:valid{
-content:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
-}
-*/
-
-
-form input[type="text"]:valid{
-  background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
-  background-position: right top;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
+.form input:required:valid{
+background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+background-position: right top;
+background-repeat: no-repeat;
+background-size: 20px;
 }
 
-
-/*
-input[type="text"]:valid{
-background:url(../images/download.svg) no-repeat 96% center white;
-outline:  2px solid rgba(200, 76 ,76 0.89);
+input:focus, textarea:focus{
+background-color:#e0f5f9;
 }
-*/
 
-/*
-input[type="text"]:valid + .input-validation::before {
-    content: "✓";
-    color: green;
-    size: 20px 20px;
-}*/
-
-
+button:hover{
+transform: scale(1.1);
+transition: all 0.5s;
+}
 
 @media(min-width:768px){
-    #container{
-    width:40%; 
-    max-width:1200px;
-    }
+#container{
+max-width:540px;
 }
+
+.align{
+display:flex;
+justify-content: space-between;
+}
+
+.lbl{
+padding:25px 0 25px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="city"],
+select[id="state"]{
+width:70%;
+}
+
+input[type="postal-code"]{
+width: 25%;
+margin-right:225px;
+}
+ }
