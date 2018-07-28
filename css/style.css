@@ -121,7 +121,7 @@ font-size:12px;
 margin: 25px 0 25px 0;
 }
 .form input:required:valid{
-background-image:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);
+background-image:url("../pictures/check.svg");
 background-position: right top;
 background-repeat: no-repeat;
 background-size: 20px;
