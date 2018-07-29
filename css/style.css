@@ -6,8 +6,7 @@ body{
 font-size:12px;
 }
 
-
-body:before {/*Fix to make bacground display properly on mobile*/
+body:before{/*Fix to make background display properly on mobile*/
 content: "";
 display: block;
 position: fixed;
@@ -22,7 +21,6 @@ background:linear-gradient(45deg, #5664b9,#2c8fa3) no-repeat;
 -o-background-size: cover;
 background-size: cover;
 }
-
 
 fieldset{
 border: none;
@@ -97,7 +95,7 @@ margin-top:2px;
 color:#313a73;
 }
 
-input[type="postal-code"]{
+input[type="number"]{
 width: 50%;
 }
 
@@ -174,7 +172,7 @@ select[id="state"]{
 width:70%;
 }
 
-input[type="postal-code"]{
+input[type="number"]{
 width: 25%;
 margin-right:45%;
 }
