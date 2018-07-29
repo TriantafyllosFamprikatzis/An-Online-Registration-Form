@@ -4,11 +4,6 @@ box-sizing: border-box;
 
 body{
 font-size:12px;
-}
-
-body{
-margin: 0;
-padding: 0;
 background:linear-gradient(45deg, #5664b9,#2c8fa3);
 }
 
