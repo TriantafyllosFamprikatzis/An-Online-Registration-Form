@@ -6,7 +6,8 @@ body{
 font-size:12px;
 }
 
-body:before {
+
+body:before {  /*Fix to make bacground display properly on mobile*/
 content: "";
 display: block;
 position: fixed;
@@ -15,12 +16,17 @@ top: 0;
 width: 100%;
 height: 100%;
 z-index: -10;
-background:linear-gradient(45deg, #5664b9,#2c8fa3) no-repeat;
+
+/*background:linear-gradient(45deg, #5664b9,#2c8fa3) no-repeat;*/
+background-image:url("../pictures/Untitled-1.jpg");
+background-repeat: no-repeat;
+
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
 }
+
 
 fieldset{
 border: none;
@@ -53,8 +59,8 @@ border-style: inset;
 }
 
 .btn{
-width:11px;
-height:11px;
+width:12px;
+height:12px;
 }
 
 .box{ /*style the box containers*/
