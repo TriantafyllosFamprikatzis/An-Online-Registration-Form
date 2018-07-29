@@ -2,7 +2,7 @@
 box-sizing: border-box;
 }
 
-body{
+html{
 /*min-height:100%;
 min-width:768px;*/
 background:linear-gradient(45deg, #5664b9,#2c8fa3);
@@ -42,8 +42,8 @@ border-style: inset;
 }
 
 .btn{
-width:10px;
-height:10px;
+width:11px;
+height:11px;
 }
 
 .box{ /*style the box containers*/
@@ -178,10 +178,6 @@ font-size:22px;
 }
 button{
 font-size:18px;
-}
-.btn{
-width:11px;
-height:11px;
 }
 .copyright{
 font-size:13px;
