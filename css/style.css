@@ -47,7 +47,7 @@ font-size: 1em;
 font-weight: 300; 
 width: 100%;
 border: none;
-height: auto;
+height:3.5em;
 padding: 15px;
 margin-bottom: 1.2em;
 margin-top:0.8em;
@@ -62,6 +62,10 @@ color: #8d8c8c;
 
 option{
 opacity:0.5;
+}
+
+textarea[id="feedback"]{
+height:4.5em;
 }
 
 ::placeholder{
