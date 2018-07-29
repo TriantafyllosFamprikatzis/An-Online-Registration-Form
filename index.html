@@ -39,7 +39,7 @@
                     </div>
                     <div class="align">
                         <label for="number" class="lbl">Phone Number</label>
-                        <input type="tel" id="number" name="phone-number" class="box" pattern="[0-9].{8,}">
+                        <input type="tel" id="number" name="phone-number" class="box" pattern="[0-9].{8,}"  placeholder="Required" title="Please fill your email" required>
                     </div>
                     <div class="align">
                         <label for="address" class="lbl">Street Address</label>
@@ -122,13 +122,13 @@
                     <label class="newsletter-text">Select the newsletters you would like to recieve</label>
                     <br>
                     <input class="newsletter-items btn" type="checkbox" id="html-news" value="html-news" name="Select-newsletter">
-                    <label class="newsletter-items">HTML News</label>
+                    <label class="newsletter-items" for="html-news">HTML News</label>
                     <br>
                     <input class="newsletter-items btn" type="checkbox" id="css-news" value="css-news" name="Select-newsletter">
-                    <label class="newsletter-items">CSS News</label>
+                    <label class="newsletter-items" for="css-news">CSS News</label>
                     <br>
                     <input class="newsletter-items btn" type="checkbox" id="javascript-news" value="javascript-news" name="Select-newsletter">
-                    <label class="newsletter-items">Javascript News</label>
+                    <label class="newsletter-items" for="javascript-news">Javascript News</label>
                     <br>
                     <label class="newsletter-text">Newsletter format</label>
                     <br>

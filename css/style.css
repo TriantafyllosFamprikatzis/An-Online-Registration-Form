@@ -127,6 +127,8 @@ background-size: 20px;
 input:focus, textarea:focus{
 background-color:#e0f5f9;
 outline:0;
+transform: scale(1.04);
+transition: all 0.6s;
 }
 
 button:hover{
