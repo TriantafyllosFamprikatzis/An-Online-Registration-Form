@@ -47,7 +47,7 @@ font-size: 1em;
 font-weight: 300; 
 width: 100%;
 border: none;
-height:3.5em;
+height:3.9em;
 padding: 15px;
 margin-bottom: 1.2em;
 margin-top:0.8em;
@@ -67,11 +67,11 @@ opacity:0.5;
 textarea[id="feedback"]{
 height:4.5em;
 }
-
+/*
 select[id="state"]{
 height:3.9em;
 }
-
+*/
 ::placeholder{
 text-align: right;
 opacity:0.5;
