@@ -67,11 +67,11 @@ opacity:0.5;
 textarea[id="feedback"]{
 height:4.5em;
 }
-/*
+
 select[id="state"]{
 height:3.9em;
 }
-*/
+
 ::placeholder{
 text-align: right;
 opacity:0.5;
