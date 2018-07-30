@@ -57,7 +57,7 @@ background-color: #e8eeef;
 }
 
 textarea[id="feedback"]{
-height:4.5em;
+height:6em;
 }
     
 select[id="state"]{
@@ -125,6 +125,7 @@ font-size:12px;
 .header2{
 margin: 25px 0 25px 0;
 }
+
 .form input:required:valid{
 background-image:url("../pictures/check.svg");
 background-position: right top;
