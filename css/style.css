@@ -131,6 +131,7 @@ background-image:url("../pictures/check.svg");
 background-position: right top;
 background-repeat: no-repeat;
 background-size: 20px;
+transition-timing-function:step-start;
 }
 
 input:focus, textarea:focus{
